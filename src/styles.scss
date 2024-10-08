@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: rgb(0, 0, 19) !important; /* Color de fondo global */
+}
+
+/* Definición de la clase con un nombre único y un valor para el peso de la fuente */
+.afacad-flux-custom { /* Cambié <uniquifier> por 'custom' */
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Cambié <weight> por un valor real, como 400 */
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Estilos para componentes específicos */
+app-header {
+    background-color: rgb(0, 0, 19); /* Color de fondo para el componente <app-header> */
+}
+
+app-home {
+    background-color: rgb(0, 0, 19); /* Color de fondo para el componente <app-home> */
+}
+
+app-about {
+    background-color: rgb(37, 37, 100); /* Color de fondo para el componente <app-about> */
+}
+
+app-proyectos {
+    background-color: #ffccff; /* Color de fondo para el componente <app-proyectos> */
+}
+
+app-contact {
+    background-color: #ffffcc; /* Color de fondo para el componente <app-contact> */
+}
+
+app-footer {
+    background-color: #cccccc; /* Color de fondo para el componente <app-footer> */
+}
